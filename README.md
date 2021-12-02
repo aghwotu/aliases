@@ -11,6 +11,7 @@ So I use VSCode and my alias file is at `C:/tools/cmder/config/user_aliases.cmd`
 ```bash
 add_alias= code /tools/cmder/config/user_aliases.cmd
 ```
+Now, whenever you type `add_alias` in your terminal, it would open your `user_aliases.cmd` file in VSCode and you can add new aliases
 
 # System
 
