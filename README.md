@@ -4,6 +4,14 @@ My personal aliases. You will notice that sometimes there are two aliases for th
 # Recommendation
 My personal rule for aliases is that they can be as long or as short as you want them to be as long they help you to be more efficient. 
 
+# Adding aliases to your terminal
+I LOVE using aliases and I use the '[cmder](https://cmder.net/)' terminal on Windows. I saw a neat trick today - May, 15 2021. Add the path to your alias file as an alias. 
+So I use VSCode and my alias file is at `C:/tools/cmder/config/user_aliases.cmd`. Now, create a new alias called `add_alias` to your alias file like so:
+
+```bash
+add_alias= code /tools/cmder/config/user_aliases.cmd
+```
+
 # System
 
 ```bash
