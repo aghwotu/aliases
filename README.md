@@ -1,5 +1,5 @@
 # aliases
-My personal aliases. You will notice that sometimes there are two aliases for the same command. I do this because sometimes I remember one and forget the other so I have them both depending whichever one I remember.
+My personal aliases. You will notice that sometimes there are two aliases for the same command. I do this because sometimes I remember one and forget the other so I have them both depending on whichever one I remember.
 
 # Recommendation
 My personal rule for aliases is that they can be as long or as short as you want them to be as long they help you to be more efficient. 
