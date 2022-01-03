@@ -18,7 +18,7 @@ add_alias= code /tools/cmder/config/user_aliases.cmd
 
 Now, whenever you type `add_alias` in your terminal, it would open your `user_aliases.cmd` file in VSCode and you can add your new aliases.
 
-> **NOTICE**: Please take note of the differences between the syntax for the macOS and Windows aliases. For aliases that work in both macOS and Windows, update your alias file appropriately.
+> **NOTICE**: Please take note of the differences between the syntax for the macOS and Windows aliases.
 
 ### macOS alias syntax
 
@@ -32,17 +32,12 @@ alias cl="clear"
 cl=clear
 ```
 
-# System aliases - macOS and Windows
-
-```bash
-alias cl="clear"
-```
-
 # System - macOS only
 
 ```bash
 alias add_alias="code ~/.zshrc"
 alias add_new_alias="code ~/.zshrc"
+alias cl="clear"
 alias new_alias="code ~/.zshrc"
 alias show_variables="printenv"
 ```
@@ -50,6 +45,7 @@ alias show_variables="printenv"
 # System - Windows only
 
 ```bash
+cl=clear
 e.=explorer .
 add_new_alias= code /tools/cmder/config/user_aliases.cmd
 add_alias= code /tools/cmder/config/user_aliases.cmd
@@ -67,7 +63,7 @@ alias server="php artisan serve"
 alias tinker="php artisan tinker"
 ```
 
-# Git - macOS and Windows
+# Git - macOS
 
 ```bash
 alias gs="git status"
@@ -81,6 +77,20 @@ alias git_add_origin="git remote add origin"
 alias grab_all_branches="git remote update"
 alias grab_remote_branches="git remote update"
 alias gcl="git clone"
+```
+
+# Git - Windows
+
+```bash
+ga=git add $*
+gc=git commit $*
+gcl=git clone $*
+gs=git status
+grab=git branch -a
+git_edit_origin=git remote set-url origin $*
+git_add_origin=git remote add origin $*
+grab_all_branches=git remote update
+grab_remote_branches=git remote update
 ```
 
 # MongoDB - macOS only
