@@ -55,12 +55,20 @@ codefiles=cd C:\code
 root=cd C:\
 ```
 
-# Laravel - macOS and Windows
+# Laravel - macOS
 
 ```bash
 alias art="php artisan"
 alias server="php artisan serve"
 alias tinker="php artisan tinker"
+```
+
+# Laravel - Windows
+
+```bash
+art=php artisan $*
+server=php artisan serve
+tinker=php artisan tinker
 ```
 
 # Git - macOS
