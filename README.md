@@ -47,13 +47,28 @@ alias show_variables="printenv"
 ```bash
 cl=clear
 e.=explorer .
+root=cd C:\
+```
+
+# Aliases configuration
+
+```bash
+ref=alias /reload
 add_new_alias= code /tools/cmder/config/user_aliases.cmd
 add_alias= code /tools/cmder/config/user_aliases.cmd
 new_alias= code /tools/cmder/config/user_aliases.cmd
+```
+
+# Code folder navigation aliases
+
+```bash
 gocode=cd C:\code
 codefiles=cd C:\code
-root=cd C:\
 ```
+
+# Folder creation aliases
+
+mkcd=mkdir "$1" && cd "$1"
 
 # Laravel - macOS
 
