@@ -68,7 +68,9 @@ codefiles=cd C:\code
 
 # Folder creation aliases
 
+```bash
 mkcd=mkdir "$1" && cd "$1"
+```
 
 # Laravel - macOS
 
